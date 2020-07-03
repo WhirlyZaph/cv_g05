@@ -1,0 +1,259 @@
+@media (min-width: 2560px) {
+
+	.eye, .males{
+		display: inline-block;
+	}
+
+	.eye:active {
+		top: 494px;
+		padding-bottom: 50px;
+		background-color: black;
+	}
+
+	header {
+		display: none;
+	}
+
+	.main {
+		display: none;
+	}
+
+	.maint {
+		display: none;
+	}
+
+	footer {
+		display: none;
+	}
+
+	.last {
+		display: none;
+	}
+
+}
+
+@media (min-width: 1001px) {
+  .msipad {
+    background-color: rgba(253, 252, 251, 0);
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .header-right a {
+    font-size: 20px;
+  }
+
+  .header-right a:hover {
+    color: white;
+  }
+
+  .header-right a:active {
+    color: blue;
+  }
+
+  .main {
+    transition: background-image 0s;
+    background-image: url(https://planetary.s3.amazonaws.com/assets/images/wallpaper/bg_planetary-society_lro-orientale-oblique_phone1215x2160.jpg);
+  }
+
+  .main:hover {
+    background-image: url(https://planetary.s3.amazonaws.com/assets/images/wallpaper/bg_planetary-society_lro-orientale-oblique_phone1215x2160.jpg);
+  }
+
+  .main h1, .main h2, .main h3 {
+    color: lime;
+  }
+
+  .main h3 {
+    height: 45px;
+  }
+
+  .msipad {
+    display: inline;
+  }
+
+  .ms {
+    background-color: rgba(0, 157, 206, .5)
+  }
+
+  .skill {
+    padding-top: 32px;
+  }
+
+  .skill h3 {
+    margin-bottom: 65px;
+  }
+
+  .skill-image {
+    width: 25%;
+  }
+
+  .skill-image img {
+    width: 110px;
+  }
+
+  .skill-image img:hover {
+    opacity: 1;
+  }
+
+  .skill-image img:active {
+    opacity: .75;
+  }
+
+  .sig1, .sig2, .gapsi {
+    display: none;
+  }
+
+	footer h1 {
+		padding-top: 60px;
+	}
+
+	.icon li:hover {
+		background-color: #d6d2d0;
+	}
+
+	.icon li:hover > a {
+		transform: none;
+	}
+
+	.icon li:active {
+		background-color: #fdd703;
+	}
+
+	.icon li:active > a {
+		transform: scale(1.8);
+	}
+
+	.nav a {
+		text-decoration: underline;
+	}
+
+}
+
+@media (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .elon {
+    width: 250px;
+  }
+
+  .main h1, .main h2, .main h3 {
+    color: #F97FD9;
+    text-shadow: 1px 1px #992A7C;
+  }
+
+  .main h1 {
+    font-size: 20px;
+  }
+
+  .main h2 {
+    font-size: 16px;
+  }
+
+	.skill {
+		padding-bottom: 40px;
+	}
+
+	.skill h3 {
+		margin-bottom: 30px;
+	}
+
+  .msmobile {
+    background-color: rgba(253, 252, 251, 0);
+  }
+
+  .skill-image {
+    width: 50%;
+  }
+
+  .skill-image img {
+    width: 89.99px;
+  }
+
+  .gapsi {
+    display: inline-block;
+    height: 24.99px;
+  }
+
+	.maint {
+		margin-bottom: 30px;
+	}
+
+	.maint h1 {
+		font-size: 25px;
+	}
+
+	.maint img {
+		width: 75px;
+	}
+
+	.maint p {
+		font-size: 20px;
+	}
+
+	.maint a {
+		font-size: 18px;
+		padding: 6px 7.49px;
+		box-shadow: 0 2px #800000;
+	}
+
+	.maint a:hover {
+		opacity: .75;
+	}
+
+	.maint a:active {
+		opacity: 1;
+		box-shadow: none;
+		position: relative;
+		top: 2px;
+		left: 0;
+	}
+
+	footer {
+		background-image: none;
+		padding-bottom: 16px;
+	}
+
+	footer h1 {
+		font-size: 25px;
+		padding-top: 10px;
+	}
+
+	.icon li:active {
+		background-color: #D6D2D0;
+		opacity: .8;
+	}
+
+	.nav li {
+		margin-top: 0;
+	}
+
+	.nav a {
+		font-size: 15px;
+	}
+
+	.last {
+		background-color: #FDD703;
+	}
+
+}
+
+@media (max-width: 320px) {
+
+	.icon li {
+		margin: 0 2px;
+	}
+
+	.nav li {
+		margin: 10px;
+	}
+
+}
